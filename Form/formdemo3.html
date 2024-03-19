@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>form</title>
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+            <legend>
+                <h2>HTML FORM DUMMY </h2>
+            </legend>
+            <br />
+            <label for="name">Enter Name</label>
+            <input type="text" id="name">
+
+            <br />
+            <br />
+
+            <label for="Email">Enter email id</label>
+            <input type="text" name="email" id="Email">
+
+            <br />
+            <br />
+
+            <label for="password1">Enter password</label>
+            <input type="password" name="password1" id="password1 minlength=" 8"required>
+
+            <br />
+            <br />
+
+            <label for="selectors">Choose books:</label>
+            <select name="books" id="selectors">
+                <option value=" operating syst."> OS</option>
+                <option value=" dbms"> DBMS</option>
+                <option value=" toc"> TOC</option>
+            </select>
+            <!-------date----->
+            <br />
+            <br />
+            <label for="datepicker"> choose Date of Birth:</label>
+            <input type="date" id="datepicker">
+
+            <!-------radio button-----
+            <h4> Choose Gender</h4>-->
+            <br />
+            <br />
+            <span>Gender: </span>
+
+            <input type="radio" name="radio 1" id="radio 2">
+            <label for="radio2"> male</label>
+
+            <input type="radio" name="radio 1" id="radio 2">
+            <label for="radio2"> female</label>
+
+            <input type="radio" name="radio 1" id="radio 2">
+            <label for="radio2"> others</label>
+            <!-------checkbox-----
+            <h4>which language do you like</h4>-->
+            <br />
+            <br />
+
+            <span>language: </span>
+           
+            <input type="checkbox" name="checkbox1" id="checkbox1">
+            <label for="checkbox1">English:</label>
+            
+            <input type="checkbox" name="checkbox1" id="checkbox2">
+            <label for="checkbox2">hindi:</label>
+           
+            <input type="checkbox" name="checkbox1" id="checkbox2">
+            <label for="checkbox2">telgu:</label>
+
+            <br />
+            <br />
+
+            <label for="choosefile">uplode</label>
+            <input type="file" name="choosefile" id="choosefile">
+
+            <br />
+            <br />
+
+            <input type="image" name="imagebutton2" id="imagebutton1" alt="click here"
+                src="images.jpeg" height="30" width="30px">
+
+
+            <br />
+            <br />
+            <!-------text-area----->
+            <label for="comments">Comments:</label>
+            <textarea name="textarea" id="comments" cols="30" rows="10" placeholder="Enter text"></textarea>
+
+            <br />
+            <br />
+            <button>submit</button>
+
+
+            <Div>
+                <h3> search the site</h3>
+                <label for="site search">Search the site </label>
+                <input type="search" name=" site" id=" site search">
+                <button>search</button>
+
+            </Div>
+
+            <br />
+
+            <label for="appt">Choose a time for your meeting:</label>
+            <input type="time" id="appt" name="appt" min="9.00" max="18.00" required>
+            <small>(Office hours are 9am to 6pm)</small>
+
+            <br />
+            <br />
+
+            <label for="start">start month</label>
+            <input type="month" name="start" id="start" min="2023-03" max="2023-05">
+            <br />
+            <br />
+            <label for="Week">Choose a week in May or June</label>
+            <input type="week" id="Week" name="WEEK" min="2018-W18" max="2018-W25 required">
+
+            <br />
+            <br />
+            <label for="URL">Enter an https:// URL:</label>
+            <input type="url" name="Url" id=" URL" placeholder="https://example.com " pattern="https://.*" size="30"
+                required>
+
+            <br />
+            <br />
+
+            <p>The <em>Pythagorean theorem</em> is often expressed as the following equation:</p>
+
+            <p><var>a<sup>2</sup></var> + <var>b<sup>2</sup></var> = <var>c<sup>2</sup></var></p>
+
+
+
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>
